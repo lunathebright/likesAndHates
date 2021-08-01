@@ -1,0 +1,68 @@
+body {
+    font-family: sans-serif;
+  }
+.wrap {
+  padding: 40px 20px;
+  width: 400px;
+  text-align: center;
+  background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+  color: white;
+  font-family: 'Work Sans', sans-serif;
+  border-radius: 10px;
+}
+section {
+  display: flex;
+  justify-content: space-around;
+}
+h1 {
+  font-weight: 500;
+}
+h2 {font-weight: 400;}
+section div {
+  padding: 0px 10px;
+  box-sizing: border-box;
+  width: 190px;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 13px;
+}
+section div ul {
+  padding: 0;
+  font-weight: 300;
+}
+section div ul li {
+  list-style: none;
+  text-align: left;
+  position: relative;
+  margin-bottom: 7px;
+}
+section div ul li .switch-btn {
+  right: 20px;
+}
+section div ul li .del-btn {
+  right: 0;
+}
+button {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  width: 20px;
+  cursor: pointer;
+  margin-right: 5px;  
+  position: absolute;
+}
+input {
+  border: none;
+  background-color: transparent;
+  margin: 30px 0;
+  color: inherit;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+  padding: 7px 15px 2px;
+}
+input:focus {
+  outline: none;
+}
+input::placeholder {
+  color: white;
+  text-align: center;
+}
